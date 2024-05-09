@@ -1,2 +1,228 @@
-<head>Title</head>
-<body>test body</body>
+﻿<html><head>
+	<meta charset="utf-8">
+	<meta name="apple-itunes-app" content="app-id=1024521469">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ListenUp!</title>
+
+<link href="font-awesome.min.css" rel="stylesheet">
+
+<style>
+@import url(css?family=Raleway);
+
+html, body, #content {
+	margin: 0px;
+	height: 100%;
+	font-family: sans-serif;
+	font-weight: lighter;
+	color: #009309;
+	background-color: #fcfefc;
+	text-align: center;
+	line-height: 1.4;
+}
+#splash {
+	height: 100%;
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+	max-width: 700px;
+	margin: auto;
+	position: relative;
+}
+@media screen and (min-width: 700px) {
+	#splash > div {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 1em;
+		height: 100%;
+	}
+	#splash #left {
+		text-align: right;
+	}
+	#splash #right {
+		text-align: left;
+	}
+	#splash .iphone {
+		width: 288px;
+		height: 576px;
+	}
+	#screenshots img {
+		max-width: 200px;
+	}
+	#like-container {
+		position: absolute;
+		top: 100%;
+		right: 20px;
+		margin-top: -50px;
+	}
+}
+#chevron {
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	margin-top: -2em;
+	color: #009309;
+	opacity: 0.5;
+	margin-left: -0.5em;
+}
+@media screen and (max-width: 700px) {
+	#chevron {
+		display: none;
+	}
+	#splash .iphone {
+		width: 192px;
+		height: 384px;
+		display: inline-block;
+	}
+	#splash #left {
+		padding: 10px;
+	}
+	#screenshots img {
+		max-width: 100px;
+	}
+	#splash .appstore {
+		display: none;
+	}
+}
+img.appstore {
+	max-width: 120px;
+}
+.iphone {
+	background-image: url('5s.png');
+	background-size: contain;
+	position: relative;
+	width: 720px;
+	height: 1440px;
+}
+.iphone img {
+	position: absolute;
+	top: 17.9%;
+	left: 14%;
+	width: 73%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway", sans-serif;
+	font-weight: normal;
+}
+#icon-row {
+	margin: 30px;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	position: relative;
+}
+#icon-row #icon-container {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+	border: 10px solid #fcfefc;
+}
+#icon-row img {
+	width: 100%;
+	border-radius: 19px;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+}
+#description {
+	margin: auto;
+	width: 90%;
+	max-width: 600px;
+}
+#screenshots {
+	margin-bottom: 2em;
+}
+#screenshots img {
+	border: 1px solid white;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+	margin: 1em;
+}
+#description {
+	white-space: pre-wrap;
+}
+#stars {
+	text-align: center;
+	font-style: italic;
+	font-size: small;
+}
+#stars span {
+	display: block;
+	font-size: 30px;
+	font-style: normal;
+}
+#attribution {
+	font-size: small;
+	padding: 2em;
+}
+#attribution a {
+	color: #009309;
+}
+</style>
+	
+<div id="content">
+
+
+<div id="chevron" class="fa fa-chevron-down"></div>
+<div id="splash">
+	<div id="left">
+		<h1>ListenUp!</h1>
+		<p></p>
+		<a href="https://apps.apple.com/us/app/listenup-tv-english-audio/id6502402940"><img class="appstore" src="appstore.svg" alt="Download on the Apple App Store"></a>
+	</div>
+	<div id="right">
+		<div class="iphone">
+			<img src="1.png">
+		</div>
+	</div>
+</div>
+
+<div id="icon-row">
+	<div id="icon-container">
+		<img src="logo.png">
+	</div>
+</div>
+
+<div id="screenshots">
+	
+		<img src="1.png">
+	
+		<img src="2.png">
+	
+		<img src="3.png">
+	
+</div>
+
+
+<p id="stars"><span>★★★★★</span> App Store Rating</p>
+
+
+<p id="description"><p>
+	<a href="https://apps.apple.com/us/app/listenup-tv-english-audio/id6502402940"><img class="appstore" src="appstore.svg" alt="Download on the Apple App Store"></a>
+</p>
+
+<p>
+	
+	<script>
+	// dynamically create a Facebook like button for the current URL:
+	var like = document.createElement("div");
+	like.className = "fb-like";
+	like.setAttribute("data-href", location.href);
+	like.setAttribute("data-layout", "button_count");
+	like.setAttribute("data-action", "like");
+	like.setAttribute("data-show-faces", "true");
+	like.setAttribute("data-share", "true");
+	document.getElementById("like-container").appendChild(like);
+	</script>
+<p></p>
+
+<p id="copyright">© leepinghere.com </p>
+
+<p id="attribution">
+by <a href="mailto:leeping067@gmail.com">LeepingHere</a></p>
+
+
+</div>
+
+
+</body></html>
